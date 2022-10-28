@@ -363,7 +363,7 @@ else {
 				}
 				wri.close();
 				Scanner sc = new Scanner(file);
-				last = sc.next();
+				last = sc.nextLine();
 				//ans.setText(sc.next());
 				//System.out.println(last);
 				sc.close();		
